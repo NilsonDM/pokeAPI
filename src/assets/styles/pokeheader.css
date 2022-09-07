@@ -1,0 +1,29 @@
+.header{
+    min-width: 100%;
+    position: relative;
+    max-width: 1050px;
+
+}
+.header img{
+    position: absolute;
+    width: 30%;
+    top: 30px;
+    left: 70px;
+}
+
+.header .header-red{
+    width: 100%;
+    min-height: 90px;
+    background-color: #DD1A1A;
+}
+.header .header-black{
+    width: 100%;
+    min-height: 40px;
+    background-color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .header img{
+        width: 60%;
+    }
+}

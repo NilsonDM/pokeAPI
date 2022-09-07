@@ -1,0 +1,39 @@
+
+.pokedex-container h2{
+    color: #FE1936;
+    margin-top: 40px;
+}
+.pokedex-container h2 span{
+    color: black;
+    font-weight: lighter;
+    
+}
+.cards-container{
+    margin: 40px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+  
+  
+
+}
+
+.pokedex-header{
+    width: 90%;
+    margin: 0% auto;
+}
+.pokedex-header-flex{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+@media only screen and (max-width: 500px){
+    .cards-container{
+       
+        grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+    }
+}

@@ -1,0 +1,20 @@
+.home-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.home-form{
+    width: 100%;
+    text-align: center;
+}h1{
+    color: #FE1936;
+}
+
+.form-home{
+    width: 50%;
+    margin: 0% auto;
+}
